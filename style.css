@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.pc {
+  background-color: #333;
+  border-radius: 15px;
+  width: 1000px;
+  height: 700px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.monitor {
+  background-color: #000;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#gameContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.keyboard {
+  background-color: #555;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
